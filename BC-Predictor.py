@@ -375,7 +375,7 @@ st.markdown(
     """
     <div class="main-header">
         <div style="max-width:1200px; margin:0 auto; padding:0 2rem;">
-            <div class="header-title">Breast Cancer Risk Assessment Platform</div>
+            <div class="header-title">OncoVista™ — Clearer insight into breast cancer risk.</div>
             <div class="header-subtitle">
                 AI-powered clinical decision support for breast cancer risk stratification, 
                 featuring ensemble model predictions, patient-level analytics, and evidence-based clinical recommendations.
@@ -759,3 +759,4 @@ if "bc_results" in st.session_state and "bc_features" in st.session_state:
             f'</div>',
             unsafe_allow_html=True
         )
+
